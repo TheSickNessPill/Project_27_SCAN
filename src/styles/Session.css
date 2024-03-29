@@ -1,0 +1,74 @@
+.session-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.singup-button{
+    color: gray;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 10px;
+    padding: 0;
+
+    pointer-events: none;
+}
+
+.singup-button:hover{
+    text-decoration: underline;
+}
+
+.session-separator{
+    padding: 0;
+    margin: 3px;
+    width: 4px;
+    height: 50px;
+    background-color: rgb(50, 175, 50);
+}
+
+.login-button{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(47, 251, 193);
+    border-radius: 5px;
+}
+
+.login-button:hover{
+    text-decoration: underline;
+}
+
+.session-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.session-out div p {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 5px;
+}
+
+.logout-button{
+    float: right;
+    margin: 5px;
+
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+}
+
+.logout-button:hover{
+    text-decoration: underline;
+}
+

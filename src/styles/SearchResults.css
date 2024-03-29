@@ -1,0 +1,284 @@
+.results-decoration {
+    display: flex;
+
+    margin: 0;
+    padding: 5em;
+    padding-bottom: 0;
+
+    width: 100%;
+}
+
+.results-decoration-text {
+    width: 50%;
+}
+
+.results-decoration-text>p:nth-child(1),
+.results-decoration-text>p:nth-child(2) {
+    font-size: 3.5em;
+    font-weight: bolder;
+
+    margin: 0;
+    padding: 0;
+}
+
+.results-decoration-text>p:nth-child(2) {
+    padding-bottom: 3%;
+}
+
+.results-decoration-text>p:nth-child(3),
+.results-decoration-text>p:nth-child(4) {
+    font-size: 1.3em;
+    font-weight: normal;
+
+    margin: 0;
+    padding: 0;
+}
+
+.results-decoration-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 25em;
+}
+
+.results-decoration-image {
+    width: 100%;
+    height: 100%;
+}
+
+.general-report {
+    padding: 5em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.general-report>p:nth-child(1) {
+    font-size: 3.5em;
+    font-weight: bolder;
+
+    margin: 0;
+    padding: 0;
+}
+
+.search-results-histogram {
+    display: flex;
+    height: 100%;
+
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+}
+
+.move-back,
+.move-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+}
+
+.move-front-button,
+.move-back-button {
+    width: 70%;
+    height: 30%;
+}
+
+.slider-histogram {
+    display: contents;
+    align-items: center;
+
+    width: 100%;
+}
+
+.row-labels {
+    width: 10em;
+
+    background-color: rgb(0, 148, 116);
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.row-labels>p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.histogram-data-wrapper {
+    width: 100%;
+    overflow: hidden;
+
+    border-top: 2px solid rgb(0, 148, 116);
+    border-right: 2px solid rgb(0, 148, 116);
+    border-bottom: 2px solid rgb(0, 148, 116);
+
+    border-radius: 10px;
+}
+
+.histogram-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    border-top: 2px solid rgb(0, 148, 116);
+    border-right: 2px solid rgb(0, 148, 116);
+    border-bottom: 2px solid rgb(0, 148, 116);
+    border-radius: 10px;
+}
+
+.histogram-loading>div>img {
+    height: 5.5em;
+    width: 5.5em;
+}
+
+.histogram-data {
+    display: flex;
+
+
+    width: 100%;
+    height: 100%;
+
+    transition: .2s;
+    transform: translateX(0px);
+}
+
+.histogram-elem {
+    height: 100%;
+    min-width: 12.5%;
+
+    border-left: 1px solid gray;
+    border-top-color: white;
+    border-right: 1px solid gray;
+
+    border-radius: 10px;
+
+}
+
+.histogram-elem>p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.doc-list-container{
+    width: 95%;
+
+    padding: 0;
+    margin-top: 0;
+}
+
+.doc-list-container > p {
+    padding: 0;
+    margin-left: 5em;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.doc-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 45%));
+    grid-auto-flow: dense;
+
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+.document{
+    box-shadow: 0 0 5px gray;
+    /* margin-left: 3em;
+    margin-right: 3em; */
+
+    margin: 2em;
+    height: 45em;
+}
+
+.document-header{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+
+    margin-bottom: 0.5em;
+}
+
+.document-header > *{
+    margin: 0;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0;
+
+    color: gray;
+}
+
+.document-title{
+    height: 3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.document-type{
+    margin: 0;
+    padding: 0;
+    margin-left: 1em;
+
+    border-radius: 5px;
+    background-color: orange;
+    width: 10em;
+    text-align: center;
+}
+
+.document-image{
+    width: 100%;
+    padding: 1em;
+
+    border-radius: 5px;
+}
+
+.document-text{
+    width: 100%;
+    height: 17em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.document-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 95%;
+
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.document-footer > a{
+    background-color: rgb(104, 210, 175);
+    text-decoration: none;
+    width: 15em;
+    height: 2em;
+    text-align: center;
+    border-radius: 5px;
+    color: black;
+}
+
+.document-load-more-button-flex{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.document-load-more-button{
+    background-color: rgb(105, 125, 255);
+    color: white;
+    font-size: 2em;
+}

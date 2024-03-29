@@ -1,0 +1,65 @@
+.companies-info{
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    min-height: 100px;
+}
+
+.companies-info-gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    min-height: 100px;
+}
+
+.companies-using{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.companies-using p:first-child{
+    font-size: 20px;
+}
+
+.companies-using p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.companies-using-counter{
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
+
+.companies-limit{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.companies-limit p:first-child{
+    font-size: 20px;
+}
+
+.companies-limit p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.companies-limit-counter{
+    font-size: 30px;
+    font-weight: bolder;
+    color: greenyellow;
+}
+
+
+.companies-loadong-gif{
+    width: 50px;
+    height: 50px;
+}
