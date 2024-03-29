@@ -131,7 +131,6 @@ function LoginForm() {
                     <button className="signup-section" disabled> Зарегестрироваться  </button>
                 </div>
                 <form className="login-form" name="login">
-                <p> sf_student1 4i2385j</p>
                     <fieldset>
                         <p>Логин или номер телефона: </p>
                         <input
